@@ -16,13 +16,13 @@ namespace ObjectiveEnumBenchmark
         fourth, 
         fifth, 
         sixth, 
-        seventh, 
+        seventh,
         eighth, 
         ninth, 
         zero = 0
     }
 
-    [SimpleJob(RunStrategy.ColdStart, targetCount: 100)]
+    //[SimpleJob(RunStrategy.ColdStart, targetCount: 100)]
     public class SystemEnumTests
     {
         public SystemEnumDemo[] ToStringObjects => new SystemEnumDemo[] { SystemEnumDemo.zero, SystemEnumDemo.first, SystemEnumDemo.ninth };

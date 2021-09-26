@@ -27,7 +27,7 @@ namespace ObjectiveEnumBenchmark
         }
     }
 
-    [SimpleJob(RunStrategy.ColdStart, targetCount: 100)]
+    //[SimpleJob(RunStrategy.ColdStart, targetCount: 100)]
     public class OOPEnumTests
     {
         public OOPEnumDemo[] ToStringObjects => new OOPEnumDemo[] { OOPEnumDemo.zero, OOPEnumDemo.first, OOPEnumDemo.ninth };
